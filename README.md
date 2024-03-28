@@ -23,7 +23,7 @@ Usage:
 Flags:
   -h, --help           help for this command
   -r, --regex string   regex of tip names to parse
-  -t, --tree string    tree file to read (in Newick format
+  -t, --tree string    tree file to read (in Newick format)
 ```
 
 ## Installation
