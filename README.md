@@ -4,7 +4,7 @@ Find the most recent common ancestor (MRCA) of a set of tips in a phylogenetic t
 
 ## Use
 
-The input tree (`-t`) must be rooted and in newick format, with internal tips labelled. Tip names are matched by providing a regular expression to `-r`:
+The input tree (`-t`) must be rooted and in newick format, with internal nodes labelled. Tip names are matched by providing a regular expression to `-r`:
 
 ```
 > mrca -t rooted.newick -r "in|out0"
