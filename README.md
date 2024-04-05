@@ -11,7 +11,7 @@ The input tree (`-t`) must be rooted and in newick format, with internal nodes l
 Node2
 ```
 
-The MRCA node's label is written to `stdout`.
+The MRCA node's label is written to `stdout`. If the MRCA is the root of the tree, "root" will be printed if the root node is not named.
 
 #### Help:
 
